@@ -15,7 +15,7 @@ let con = mysql.createConnection({
 
 con.connect(function (ermac) {
     if (ermac) throw ermac;
-        // console.log(`connected as id ${con.threadid}`);
+        console.log(`connected as id ${con.threadid}`);
 
     queryall()
     })

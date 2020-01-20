@@ -55,3 +55,4 @@ UPDATE inventory SET stock = 100 WHERE id = 10;
 
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+flush privileges;
